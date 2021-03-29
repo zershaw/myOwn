@@ -24,7 +24,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         }
 
         // 失败则重定向
-        // 试试就试试
+        // 试试就试试111111111111111111111111
         response.sendRedirect(request.getContextPath() + "system/login");
         return false;
     }
